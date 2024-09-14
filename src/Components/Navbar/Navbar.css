@@ -1,0 +1,16 @@
+.menu a{
+    background: white;
+    color: #3a5a40;
+    border: 2px solid white;
+}
+
+.menu a:hover{
+    border: 2px solid #3a5a40;
+    background: white;
+}
+
+.menu .active{
+    background: white!important;
+    color: #3a5a40!important;
+    border: 2px solid #3a5a40;
+}
