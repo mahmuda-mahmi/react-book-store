@@ -10,8 +10,9 @@ const WishList = () => {
         }
     }, []);
     return (
-        <div className='grid grid-cols-3 mx-auto p-5 gap-10'>{
-             ((wishList.length  !== 0)? (wishList.map(book => <Book key={book.id} book={book}></Book>)) : <p className='my-20'>Nothing here</p>) || <p className='my-20'>Nothing here</p>
+        <div className='grid grid-cols-3 mx-auto p-5 gap-10'>
+            {
+             ((wishList?.length  !== 0)? (wishList?.map(book => <Book key={book.id} book={book}></Book>)) : <p className='my-20'>Nothing here</p>) || <p className='my-20'>Nothing here</p>
         }
            
             
